@@ -27,12 +27,12 @@ public class sendmail {
    //Enter Username
 		     WebDriverWait chill = new WebDriverWait(driver,(Duration.ofMillis(1000)));
 		    chill.until(ExpectedConditions.elementToBeClickable(By.id("login-username")));	   
-		    driver.findElement(By.id("login-username")).sendKeys("enwowo@yahoo.com");
+		    driver.findElement(By.id("login-username")).sendKeys("test@yahoo.com");
 		    driver.findElement(By.id("login-signin")).click();
 	//Enter Password
 		    WebDriverWait relax = new WebDriverWait(driver,(Duration.ofMillis(1000)));
 		     relax.until(ExpectedConditions.elementToBeClickable(By.id("login-passwd")));
-		     driver.findElement(By.id("login-passwd")).sendKeys("Parallex1234@");
+		     driver.findElement(By.id("login-passwd")).sendKeys("test");
    //Sign In
 		    driver.findElement(By.id("login-signin")).click();
    //Click on COmpose New Mail
