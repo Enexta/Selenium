@@ -18,7 +18,7 @@ public class sendmail {
 		    WebDriver driver= new ChromeDriver();
 		    driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));	
 		    JavascriptExecutor js = (JavascriptExecutor)driver; 
-	//Log into Yahoo mail
+	//Log into Yahoo Mail
 		    driver.get("https://mail.yahoo.com/");
 		    // Maximize window
 		    driver.manage().window().maximize();
